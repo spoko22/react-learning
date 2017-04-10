@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View, Image, Linking } from 'react-native';
-import Card from './Card';
-import CardSection from './CardSection';
-import Button from './Button';
+import Card from '../../src/components/common/Card';
+import CardSection from '../../src/components/common/CardSection';
+import Button from '../../src/components/common/Button';
 
 const AlbumDetail = ({ album }) => {
   const { title, artist, thumbnail_image, image, url } = album;
